@@ -1,0 +1,22 @@
+header {
+    background-color: #f5f7fa;
+        padding: 15px 0px;
+        border-bottom: 2px solid #e6e9ed;
+        .left {
+            font-size: 12px;
+            a {
+                text-decoration: none;
+                color: $primarycolour;
+                font-size: 12px;
+            }
+
+        }
+        .right {
+            a {
+                text-decoration: none;
+                 color: $primarycolour;
+                font-size: 12px;
+            }
+
+        }
+}

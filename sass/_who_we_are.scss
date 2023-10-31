@@ -1,0 +1,15 @@
+.who_we_are {
+    margin: 0px auto;
+    h1 {
+        font-size: 26px;
+        font-weight: bold;
+        color: $primarycolour;
+        font-family: $lato;
+    }
+    p {
+        font-size: 16px;
+        color: $textcolour;
+        font-family: $SourceSansPro;
+        max-width: 268px;
+    }
+}

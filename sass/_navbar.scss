@@ -1,0 +1,18 @@
+nav {
+    padding: 15px 0px;
+ .nav-item {
+    a{
+        font-size: 15px;
+        color: $primarycolour;
+        font-weight: bold;
+        font-family: 'Source Sans Pro'
+    }
+ }
+ .collapse {
+    a {
+        font-size: 15px;
+        color: $primarycolour;
+        font-weight: bold;   
+    }
+ }
+}

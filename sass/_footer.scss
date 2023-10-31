@@ -1,0 +1,40 @@
+.footer {
+    background-color: $footerclour;
+
+    .card-body {
+        h5 {
+            color: #ffffff;
+        }
+
+        p {
+            color: $footertextcolour;
+            // width: 261px;
+        }
+
+        input {
+            color: $footertextcolour;
+            background-color: #4e5c6c;
+            border: none;
+            border-radius: 3px;
+            height: 38px;
+            width: 270px;
+            position: absolute;
+        }
+        a {
+            text-decoration: none;
+            color: $footertextcolour;
+            font-size: 14px;
+            font-family: $SourceSansPro;
+            
+        }
+
+        button {
+            background-color: $secondarycolour;
+            position: relative;
+            border: none;
+            border-radius: 5px;
+            margin-top: 6px;
+        }
+    }
+
+}

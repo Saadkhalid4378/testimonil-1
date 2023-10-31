@@ -1,0 +1,348 @@
+header {
+  background-color: #f5f7fa;
+  padding: 15px 0px;
+  border-bottom: 2px solid #e6e9ed;
+}
+header .left {
+  font-size: 12px;
+}
+header .left a {
+  text-decoration: none;
+  color: #506a85;
+  font-size: 12px;
+}
+header .right a {
+  text-decoration: none;
+  color: #506a85;
+  font-size: 12px;
+}
+
+nav {
+  padding: 15px 0px;
+}
+nav .nav-item a {
+  font-size: 15px;
+  color: #506a85;
+  font-weight: bold;
+  font-family: "Source Sans Pro";
+}
+nav .collapse a {
+  font-size: 15px;
+  color: #506a85;
+  font-weight: bold;
+}
+
+.banner {
+  background-image: url("../assets/banner.png");
+  text-align: center;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 880px;
+}
+@media (max-width: 768px) {
+  .banner {
+    height: 800px;
+  }
+}
+@media (max-width: 768px) {
+  .banner {
+    height: 780px;
+  }
+}
+@media (max-width: 536px) {
+  .banner {
+    height: 700px;
+  }
+}
+@media (max-width: 434px) {
+  .banner {
+    height: 650px;
+  }
+}
+.banner h1 {
+  color: #ffffff;
+  font-size: 78px;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+}
+@media (max-width: 992px) {
+  .banner h1 {
+    font-size: 60px;
+  }
+}
+@media (max-width: 768px) {
+  .banner h1 {
+    font-size: 50px;
+  }
+}
+@media (max-width: 536px) {
+  .banner h1 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 434px) {
+  .banner h1 {
+    font-size: 33px;
+  }
+}
+.banner p {
+  color: #a3b1bf;
+  font-size: 24px;
+  font-family: "Source Sans Pro", sans-serif;
+  max-width: 942px;
+  line-height: 1.3em;
+  margin: 0px auto;
+  margin-bottom: 63px;
+}
+@media (max-width: 992px) {
+  .banner p {
+    font-size: 20px;
+  }
+}
+@media (max-width: 434px) {
+  .banner p {
+    font-size: 17px;
+  }
+}
+.banner button {
+  font-size: 18px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #ffffff;
+  background-color: #00bc9c;
+  border: none;
+  border-bottom: 2px solid #00a085;
+  border-radius: 5px;
+  text-transform: uppercase;
+  height: 65px;
+  width: 295px;
+  border-bottom: 2px solid #00a085;
+}
+@media (max-width: 992px) {
+  .banner button {
+    height: 60px;
+    width: 290px;
+  }
+}
+@media (max-width: 536px) {
+  .banner button {
+    height: 50px;
+    width: 260px;
+  }
+}
+@media (max-width: 443px) {
+  .banner button {
+    height: 45px;
+    width: 220px;
+  }
+}
+
+.who_we_are {
+  margin: 0px auto;
+}
+.who_we_are h1 {
+  font-size: 26px;
+  font-weight: bold;
+  color: #506a85;
+  font-family: "Lato", sans-serif;
+}
+.who_we_are p {
+  font-size: 16px;
+  color: #73879c;
+  font-family: "Source Sans Pro", sans-serif;
+  max-width: 268px;
+}
+
+.beautiful h1 {
+  font-size: 44px;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+  color: #506a85;
+}
+@media (max-width: 768px) {
+  .beautiful h1 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 410px) {
+  .beautiful h1 {
+    font-size: 25px;
+  }
+}
+.beautiful p {
+  font-size: 22px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #73879c;
+  max-width: 783px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+@media (max-width: 768px) {
+  .beautiful p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 410px) {
+  .beautiful p {
+    font-size: 12px;
+  }
+}
+
+.contact h1 {
+  font-size: 44px;
+  font-weight: bold;
+  color: #506a85;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 43px;
+}
+@media (max-width: 463px) {
+  .contact h1 {
+    font-size: 34px;
+  }
+}
+.contact p {
+  font-size: 22px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #73879c;
+  max-width: 744px;
+  margin: 0px auto;
+  margin-bottom: 46px;
+}
+@media (max-width: 463px) {
+  .contact p {
+    font-size: 18px;
+  }
+}
+.contact button {
+  background-color: #00bc9c;
+  color: #ffffff;
+  font-size: 15px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  border: none;
+  border-bottom: 2px solid #00a085;
+  border-radius: 5px;
+  height: 48px;
+  width: 150px;
+}
+@media (max-width: 463px) {
+  .contact button {
+    height: 40px;
+    width: 135px;
+  }
+}
+
+.cards {
+  background-color: #f2f5f7;
+  padding-bottom: 70px;
+}
+.cards h1 {
+  font-size: 44px;
+  font-weight: bold;
+  color: #506a85;
+  font-family: "Lato", sans-serif;
+}
+@media (max-width: 768px) {
+  .cards h1 {
+    font-size: 34px;
+  }
+}
+@media (max-width: 430px) {
+  .cards h1 {
+    font-size: 22px;
+  }
+}
+.cards p {
+  font-size: 22px;
+  color: #73879c;
+  font-family: "Source Sans Pro", sans-serif;
+}
+@media (max-width: 768px) {
+  .cards p {
+    font-size: 18px;
+  }
+}
+@media (max-width: 430px) {
+  .cards p {
+    font-size: 16px;
+  }
+}
+.cards h5 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #506a85;
+  font-family: "Lato", sans-serif;
+}
+@media (max-width: 391px) {
+  .cards h5 {
+    font-size: 16px;
+  }
+}
+.cards .card-text {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+  color: #73879c;
+}
+.cards .carousel-indicators {
+  bottom: -70px;
+}
+.cards .carousel-indicators button {
+  height: 15px;
+  width: 15px;
+  border-radius: 100%;
+  background-color: #506a85;
+}
+.cards .carousel-indicators button.active {
+  background-color: #00bc9c;
+}
+
+.footer {
+  background-color: #2f4052;
+}
+.footer .card-body h5 {
+  color: #ffffff;
+}
+.footer .card-body p {
+  color: #a3b1bf;
+}
+.footer .card-body input {
+  color: #a3b1bf;
+  background-color: #4e5c6c;
+  border: none;
+  border-radius: 3px;
+  height: 38px;
+  width: 270px;
+  position: absolute;
+}
+.footer .card-body a {
+  text-decoration: none;
+  color: #a3b1bf;
+  font-size: 14px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.footer .card-body button {
+  background-color: #00bc9c;
+  position: relative;
+  border: none;
+  border-radius: 5px;
+  margin-top: 6px;
+}
+
+.footerbar {
+  background-color: #283645;
+  height: 83px;
+}
+.footerbar p {
+  color: #73879c;
+  font-size: 14px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.footerbar a {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #73879c;
+  font-size: 14px;
+  font-family: "Source Sans Pro", sans-serif;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,82 @@
+.banner {
+    @media (max-width:768px) {
+        height: 800px;
+    }
+    @media (max-width:768px) {
+        height: 780px;
+    }
+    @media (max-width:536px) {
+        height: 700px;
+    }
+    @media (max-width:434px) {
+       height: 650px;
+    }
+    background-image: url("../assets/banner.png");
+    text-align: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 880px;
+    h1 {
+        @media (max-width:992px) {
+            font-size: 60px;
+        }
+        @media (max-width:768px) {
+            font-size: 50px;
+        }
+        @media (max-width:536px) {
+            font-size: 40px;
+        }
+        @media (max-width:434px) {
+            font-size: 33px;
+        }
+        color: #ffffff;
+        font-size: 78px;
+        font-family: $lato;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 35px;
+    }
+    p {
+        @media (max-width:992px) {
+            font-size: 20px;
+        }
+        @media (max-width:434px) {{
+            hf
+        }
+            font-size: 17px;
+        }
+        color: $paragraphcolour;
+        font-size: 24px;
+        font-family: $SourceSansPro;
+        max-width: 942px;
+        line-height: 1.3em;
+        margin: 0px auto;
+        margin-bottom: 63px;
+    }
+    button {
+        @media (max-width:992px) {
+            height: 60px;
+            width: 290px;
+        }
+        @media (max-width:536px) {
+            height: 50px;
+            width: 260px;
+        }
+         @media (max-width:443px) {
+            height: 45px;
+            width: 220px;
+        }
+        font-size: 18px;
+        font-family: $SourceSansPro;
+        color: #ffffff;
+        background-color: $secondarycolour;
+        border: none;
+        border-bottom: 2px solid  #00a085;
+        border-radius: 5px;
+        text-transform: uppercase;
+        height: 65px;
+        width: 295px;
+        border-bottom: 2px solid #00a085;
+    }
+}

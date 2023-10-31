@@ -1,0 +1,17 @@
+.footerbar {
+    background-color: $footerbarcolour;
+    height: 83px;
+    
+    p {
+        color: $textcolour;
+        font-size: 14px;
+        font-family: $SourceSansPro;
+    }
+    a {
+        text-transform: capitalize;
+        text-decoration: none;
+        color: $textcolour;
+        font-size: 14px;
+        font-family: $SourceSansPro;
+    }
+}
